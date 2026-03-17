@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
@@ -46,8 +47,28 @@ namespace DAY_1_PRACITCE
             }
             return array;
         }
+        //0,1,1,2,3,5,8,13,21,34,....
+        public static void PrintFibonnaci(int limit)
+        {
+            int num1 = 0;
+            int num2 = 1;
+            int sum = 0;
+            for(int i = 0; i <= limit; i++)
+            {
+                Console.WriteLine(num1);
+                
+                sum = num1 + num2;
+                num1 = num2;
+                num2 = sum; 
+                
+            }
+            
+        }
+        
         static void Main(string[] args)
         {
+
+            PrintFibonnaci(10);
             Console.WriteLine("Enter the size of the array: ");
             int sizeOfArray=int.Parse(Console.ReadLine());
 
