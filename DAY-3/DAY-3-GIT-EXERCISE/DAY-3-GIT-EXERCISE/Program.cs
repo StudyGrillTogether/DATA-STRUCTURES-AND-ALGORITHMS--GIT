@@ -63,7 +63,15 @@ namespace DAY_3_GIT_EXERCISE
                 Console.WriteLine($"Enter element: {i+1}");
                 array[i] = int.Parse(Console.ReadLine());
             }
-
+            int[] newArray=ReverseArray(array);
+            Console.Write("The reversed Array is : ");
+            for(int i=0;i< newArray.Length; i++)
+            {
+                Console.Write(newArray[i]+" ");
+            }
+            Console.WriteLine();
+            Console.WriteLine($"second largest in array : {SecondLargest(array)}");
+            Console.WriteLine($"no. of duplicates in array: {CountDuplicates(array)}");
             //
         }
     }
