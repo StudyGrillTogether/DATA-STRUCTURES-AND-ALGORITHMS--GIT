@@ -75,7 +75,7 @@ namespace DAY_4_PRACTICE
                     Node current = head;
                     while (current!= null)
                     {
-                        Console.WriteLine(current.data+" -> ");
+                        Console.Write(current.data+" -> ");
                         current = current.next;
                     }
                 }
@@ -118,7 +118,6 @@ namespace DAY_4_PRACTICE
                         break;
                     default:
                         Console.WriteLine("Invalid INPUT!");
-                        return;
                         break;
 
                 }
