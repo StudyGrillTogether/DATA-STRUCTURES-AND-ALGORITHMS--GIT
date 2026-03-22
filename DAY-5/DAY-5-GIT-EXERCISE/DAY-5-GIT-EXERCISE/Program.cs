@@ -8,6 +8,7 @@ namespace DAY_5_GIT_EXERCISE
 {
     internal class Program
     {
+       
         class MyStack
         {
             int[] array;//aray to store elements
