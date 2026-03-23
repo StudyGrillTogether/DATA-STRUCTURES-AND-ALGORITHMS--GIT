@@ -295,3 +295,25 @@ int Factorial(int n)
 - Fibonacci
 - Sum of numbers using recursion
 // Time Complexity: O(n)
+
+
+# DAY 8 — Searching Algorithms
+
+## Linear Search
+**Concept:**
+Check every element.
+
+**Time complexity:**
+O(n)
+
+## Binary Search
+**Requirement:**
+Array must be sorted
+
+**Time complexity:**
+O(log n)
+
+## C# Practice
+Implement:
+- LinearSearch()
+- BinarySearch()
