@@ -115,4 +115,183 @@ void PrintNumbers(int n)
         Console.WriteLine(i);
     }
 }
+
+# DAY 3 — Arrays
+
+## Learn
+
+### What is an Array
+
+**Properties**
+- Fixed size
+- Continuous memory
+- Index based access
+
+### Array Operations
+Learn only these
+- Traversal
+- Insertion
+- Deletion
+- Searching
+
+### C# Implementation
+Create arrays
+```csharp
+int[] arr = {5,3,8,2,1};
+```
+
+## Practice
+- Traverse array
+- Insert element at position
+- Delete element
+
+## Practice Problems
+- Reverse array
+- Find second largest
+- Count duplicates
+
+## Interview Points
+- Array advantages
+- Array disadvantage
+
+---
+
+# DAY 4 — Linked List
+
+## Learn
+
+### Why linked list exists.
+
+**Problem with array**
+- Insertion expensive
+- Fixed size
+
+**Solution**
+- Linked List
+
+### Structure of Node
+- Data
+- Next pointer
+
+### Types (just understand names)
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+
+### C# Implementation
+Create Node class
+```csharp
+class Node
+{
+    public int data;
+    public Node next
+}
+```
+
+**Implement**
+- [ ] Insert at beginning
+- [ ] Insert at end
+- [ ] Traverse list
+
+## Practice
+Write methods:
+- `AddFirst()`
+- `AddLast()`
+- `Display()`
+
+---
+
+# DAY 5 — Stack
+
+## Learn
+
+### Stack principle:
+**LIFO**
+Last In First Out
+
+**Examples**
+- Undo operation
+- Browser history
+- Plate stack
+
+### Stack Operations
+Learn these
+- Push
+- Pop
+- Peek
+- IsEmpty
+
+### C# Implementation
+First use built-in
+```csharp
+Stack<int> stack = new Stack<int>();
+```
+Then implement your own stack using array.
+
+## Practice Problems
+- [ ] Reverse string using stack
+- [ ] Balanced parentheses
+
+Example:
+```
+{[()]}
+```
+
+---
+
+# DAY 6 — Queue
+
+## Learn
+
+### Queue principle
+**FIFO**
+First In First Out
+
+**Examples:**
+- Printer queue
+- Ticket line
+- Task scheduling
+
+### Queue Operations
+- Enqueue
+- Dequeue
+- Peek
+- IsEmpty
+
+### C# Implementation
+```csharp
+Queue<int> queue = new Queue<int>();
+```
+Also implement queue using array.
+
+## Practice
+- [ ] Simulate printer queue
+- [ ] Print queue elements
+
+---
+
+# DAY 7 — Recursion
+
+## Learn
+
+### Definition:
+Function calling itself
+
+**Understand:**
+- Base condition
+- Recursive call
+
+### C# Practice
+**Factorial**
+```csharp
+int Factorial(int n)
+```
+
+**Fibonacci**
+- [ ] Study dynamic programming.
+
+## Practice
+- Factorial
+- Fibonacci
+- Sum of numbers using recursion
 // Time Complexity: O(n)
