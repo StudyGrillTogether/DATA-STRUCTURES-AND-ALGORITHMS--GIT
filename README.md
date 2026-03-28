@@ -428,3 +428,21 @@ Implement:
 - InOrder()
 - PreOrder()
 - PostOrder()
+
+
+# DAY 12 — Binary Search Tree + Hash Tables
+
+## Binary Search Tree
+**Rule:**
+Left < Root < Right
+
+**Operations:**
+- Insert
+- Search
+
+## Hash Tables
+**Concept:**
+Key → Value mapping
+
+**Example in C#:**
+Dictionary<string, int>
